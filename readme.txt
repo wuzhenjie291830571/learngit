@@ -1,6 +1,4 @@
 my name is wuzhenjie .
 my age is 24 .
 I like H5.
-test1.
-test2.
-test3.
+
