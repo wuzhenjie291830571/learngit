@@ -3,26 +3,42 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<script>
-	var a = 10;  
-	var b = null;
-	function test() {  
-		var a = 100;
-	    console.log(a);
-	    console.log(this.a);
-	    var b = 20;
-	    return function(){
-	    	console.log(a);
-	    	return function(){
-	    		console.log(b)
-	    	}
-	    }
-	}  
-	test()()();  
-	console.log(b)
-	</script>
+	<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	.box1{
+		box-sizing:border-box;
+		width:1102px;
+		background:red;
+		border:1px solid #333;
+	}
+	
+	li{
+		width:100px;
+		height:100px;
+		float: left;
+		background:red;
+		margin-right:10px;
+	}
+	</style>
 </head>
 <body>
+	<div class="box1">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
 </body>
 </html>
 </html>
